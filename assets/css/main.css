@@ -75,7 +75,31 @@ input, select, textarea {
 /*Portfolio*/
 .port-work{
 	background: rgb(230, 230, 230)
+
+}
+
+.port-work h2{
+	font-size: 1.5em;
+}
+
+.port-work table{
+	overflow: auto;
+	padding: 5px;
+}
+
+.port-work td{
+	width: 30%;
+	padding: 20px;
+	border: 40px;
+}
+
+.port-work img{
 	width: 50%;
+}
+
+#page-title-1{
+	text-align: center;
+	border: 20px;
 }
 
 /* Basic */
@@ -2086,6 +2110,7 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
+
 		}
 
 			.image.fit img {
