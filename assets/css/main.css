@@ -72,6 +72,12 @@ input, select, textarea {
 	appearance: none;
 }
 
+/*Portfolio*/
+.port-work{
+	background: rgb(230, 230, 230)
+	width: 50%;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -2060,9 +2066,9 @@ input, select, textarea {
 			max-width: 40%;
 		}
 
-			.image.left img, .image.right img {
+			/*.image.left img, .image.right img {
 				width: 100%;
-			}
+			}*/
 
 		.image.left {
 			float: left;
@@ -3387,11 +3393,11 @@ input, select, textarea {
 			flex-shrink: 0;
 			display: block;
 			margin: 0 0 2em 4em;
-			width: 50%;
+			/*width: 50%;*/
 		}
 
 			#banner .image img {
-				height: 100%;
+				/*height: 100%;*/
 				-moz-object-fit: cover;
 				-webkit-object-fit: cover;
 				-ms-object-fit: cover;
@@ -3400,7 +3406,7 @@ input, select, textarea {
 				-webkit-object-position: center;
 				-ms-object-position: center;
 				object-position: center;
-				width: 100%;
+				/*width: 100%;*/
 			}
 
 		@media screen and (orientation: portrait) {
