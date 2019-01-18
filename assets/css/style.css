@@ -1,0 +1,31 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
+
+/*
+    Design  by Bayliss Wagner
+*/
+body{
+    font-family: "Merriweather", serif;
+}
+
+
+#header{
+    position: fixed;
+    margin: 0px;
+    background-color: #76F1DB;
+    height: 25%;
+    width: 100%;
+    padding: 20px 5px 20px 5px;
+    position: relative;
+}
+
+table header{
+    padding: 5px;
+    overflow: auto;
+}
+
+header td{
+    width: 50%;
+    padding: 20px;
+    border: 40px;
+}
