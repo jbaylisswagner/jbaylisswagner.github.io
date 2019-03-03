@@ -23,7 +23,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font: "Georgia", serif;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -149,9 +149,9 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #7f888f;
-		font-family: "Georgia", sans-serif;
-		font-size: 16pt;
-		font-weight: 400;
+		font-family: "Raleway", sans-serif;
+		font-size: 18pt;
+		font-weight: 100%;
 		line-height: 1.65;
 	}
 
@@ -3022,7 +3022,7 @@ input, select, textarea {
 	}
 
 		#main > .inner {
-			padding: 0 6em 0.1em 6em ;
+			padding: 0 6em 0.1em 1em ;
 			margin: 0 auto;
 			max-width: 110em;
 		}
@@ -3331,7 +3331,7 @@ input, select, textarea {
 		display: -ms-flex;
 		display: flex;
 		border-bottom: solid 5px #f56a6a;
-		padding: 6em 0 1em 0;
+		padding: 2em 0 0.1em 0;
 		position: relative;
 	}
 
@@ -3386,7 +3386,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		padding: 6em 0 4em 0 ;
+		padding: 4em 0 4em 0 ;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
