@@ -76,11 +76,15 @@ input, select, textarea {
 /*Portfolio*/
 .port-work{
 	background: white
+}
 
+.port-work h1,h2,h3,h4,h5,h6 {
+	font-family: "Merriweather", serif;
 }
 
 .port-work h2{
 	font-size: 1.5em;
+
 }
 
 .port-work table{
@@ -94,15 +98,22 @@ input, select, textarea {
 	border: 40px;
 }
 
+.port-work p{
+	font-family: Raleway, sans-serif;
+}
+
 .port-work img{
 	width: 50%;
 }
 
 #page-title-1{
-	text-align: left;
+	font-family: "Merriweather", serif;
+	font-size: 18pt;
+	text-align: center;
 	border: 20px;
 	line-height: 100px;
 }
+
 
 /* Basic */
 
