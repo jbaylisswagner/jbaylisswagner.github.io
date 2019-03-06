@@ -82,6 +82,16 @@ input, select, textarea {
 	font-family: "Merriweather", serif;
 }
 
+.port-work header{
+	text-align: center;
+	border: 5px;
+	padding: 1.5em 0 1.5em 0;
+}
+
+.port-work h1{
+	font-size: 2.5em;
+}
+
 .port-work h2{
 	font-size: 1.5em;
 
@@ -103,7 +113,8 @@ input, select, textarea {
 }
 
 .port-work img{
-	width: 45%;
+	max-width: 100%;
+  	height: auto;
 }
 
 #page-title-1{
@@ -2103,9 +2114,9 @@ input, select, textarea {
 			max-width: 40%;
 		}
 
-			/*.image.left img, .image.right img {
+			.image.left img, .image.right img {
 				width: 100%;
-			}*/
+			}
 
 		.image.left {
 			float: left;
