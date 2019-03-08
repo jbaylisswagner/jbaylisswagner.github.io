@@ -61,6 +61,10 @@ mark {
 	color: inherit;
 }
 
+header #activate {
+	color: #f56a6a;
+}
+
 input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
@@ -3346,6 +3350,8 @@ input, select, textarea {
 		}
 
 /* Header */
+
+
 
 	#header {
 		display: -moz-flex;
