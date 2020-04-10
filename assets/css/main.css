@@ -78,8 +78,40 @@ input, select, textarea {
 }
 
 /*Portfolio*/
-.port-work{
-	background: white
+
+.big-title{
+	padding: 20px;
+	text-align: center;
+	line-height: normal;
+
+	h1{
+		font-size: 3vw;
+	}
+
+}
+
+.content{
+
+
+
+	display: flex;
+	flex-wrap: nowrap;
+
+	/* .features{
+	  display: flex;
+	} */
+
+
+}
+
+.feature-item{
+	padding: 10px;
+	flex-shrink: 1;
+	max-width: 30%;
+}
+
+/* .port-work{
+	background: white;
 }
 
 .port-work h1,h2,h3,h4,h5,h6 {
@@ -114,12 +146,17 @@ input, select, textarea {
 
 .port-work p{
 	font-family: Raleway, sans-serif;
+} */
+
+/* .port-work img{
+	 max-width: 100%;
+	 height: auto;
 }
 
-.port-work img{
-	max-width: 100%;
-  	height: auto;
-}
+.port-work{
+  box-sizing: border-box;
+} */
+
 
 #page-title-1{
 	font-family: "Merriweather", serif;

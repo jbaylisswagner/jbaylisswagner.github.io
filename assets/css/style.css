@@ -11,24 +11,7 @@ body{
     font-size: 12px;
 }
 
-.port-work{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  box-sizing: border-box;
-}
 
-.port-work .links{
-  float: right;
-}
-
-.port-work .features{
-  float: left;
-}
-
-.port-work .feature-item{
-  
-}
 
 #header{
     position: fixed;
