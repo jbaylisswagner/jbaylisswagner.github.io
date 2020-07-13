@@ -121,6 +121,50 @@ input, select, textarea {
   	height: auto;
 }
 
+/*CODING !!!!!!! Portfolio*/
+.port-work-coding{
+	background: white
+}
+
+.port-work-coding h1,h2,h3,h4,h5,h6 {
+	font-family: "Merriweather", serif;
+}
+
+.port-work-coding header{
+	text-align: center;
+	border: 5px;
+	padding: 1.5em 0 1.5em 0;
+}
+
+.port-work-coding h1{
+	font-size: 2.5em;
+}
+
+.port-work-coding h2{
+	font-size: 1.5em;
+
+}
+
+.port-work-coding table{
+	overflow: auto;
+	padding: 5px;
+}
+
+.port-work-coding td{
+	width: 50%;
+	padding: 20px;
+	border: 40px;
+}
+
+.port-work-coding p{
+	font-family: Raleway, sans-serif;
+}
+
+.port-work-coding img{
+	max-width: 100%;
+  	height: auto;
+}
+
 #page-title-1{
 	font-family: "Merriweather", serif;
 	font-size: 18pt;
