@@ -77,6 +77,8 @@ input, select, textarea {
 	appearance: none;
 }
 
+
+
 /*Portfolio*/
 .port-work{
 	background: white
@@ -124,6 +126,7 @@ input, select, textarea {
 /*CODING !!!!!!! Portfolio*/
 .port-work-coding{
 	background: white
+	margin: auto;
 }
 
 .port-work-coding h1,h2,h3,h4,h5,h6 {
@@ -162,8 +165,67 @@ input, select, textarea {
 
 .port-work-coding img{
 	max-width: 100%;
-  	height: auto;
+  height: auto;
+
 }
+
+.port-work-coding .port-list{
+		flex-wrap: wrap;
+		max-width:80%;
+		margin:auto;
+		justify-content: center;
+
+}
+
+.port-work-coding .port-list .port-item{
+		flex-wrap: wrap;
+		padding: 10px 0 10px 0;
+		margin: auto;
+		flex: 1 1 100%;
+		justify-content: center;
+}
+
+.port-work-coding .port-list .port-item .intro {
+		flex-wrap: wrap;
+		order: 0;
+		flex: 1 1 100%;
+		text-align: center;
+		font-weight:500;
+}
+
+.port-work-coding .port-list .port-item .port-image{
+		flex-wrap: wrap;
+		order:1;
+		float: none;
+		max-width: 100%;
+		flex: 1 1 100%;
+		justify-content: center;
+		margin: auto;
+}
+
+.port-work-coding .port-list .port-item .description{
+		flex-wrap: wrap;
+		padding: 8px 8px 8px 8px;
+		margin: 10px 25px 0 25px;
+}
+
+.port-work-coding .port-list .port-item .links{
+	display: flex;
+	padding: 10px 0 0 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	clear: both;
+}
+
+.port-work-coding .port-list .port-item .links a{
+	display: flex;
+	padding: 0 10px 0 10px;
+	margin: 0 15px 0 15px;
+}
+
+
 
 #page-title-1{
 	font-family: "Merriweather", serif;
@@ -1896,7 +1958,12 @@ input, select, textarea {
 		letter-spacing: 0.075em;
 		margin-top: -0.5em;
 		text-transform: uppercase;
+		margin-bottom: 10px;
 	}
+
+	/* header h3{
+	   margin-bottom: 10px;
+	} */
 
 	header.major > :last-child {
 		border-bottom: solid 3px #f56a6a;
@@ -3405,6 +3472,8 @@ input, select, textarea {
 		border-bottom: solid 5px #f56a6a;
 		padding: 2em 0 0.1em 0;
 		position: relative;
+		margin: 0 0 8px 0;
+		line-height: .75;
 	}
 
 		#header > * {
