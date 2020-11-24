@@ -1958,6 +1958,7 @@ input, select, textarea {
 		letter-spacing: 0.075em;
 		margin-top: -0.5em;
 		text-transform: uppercase;
+
 		margin-bottom: 10px;
 	}
 
@@ -3489,6 +3490,7 @@ input, select, textarea {
 			color: inherit;
 			font-family: "Merriweather", serif;
 			font-size: 1.125em;
+
 		}
 
 		#header .icons {
