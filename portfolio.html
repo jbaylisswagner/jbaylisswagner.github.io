@@ -1,18 +1,36 @@
+
+<!--
+layout.nunjucks
+all content here will be included & updated on every page of my website !
+ -->
+
 <!DOCTYPE HTML>
+<html lang="en">
 <!--
 	This website is a derivative of the HTML5UP editorial theme by @ajlkn
 	(https://html5up.net/editorial), which is licensed under CC BY 3.0
 	(html5up.net/license).
 	This website is licensed under CC BY 2.0 by Bayliss Wagner.
 -->
-<!--#include file="header.html"-->
 <html>
 	<head>
-		<title>Portfolio - Bayliss Wagner </title>
+		<title>Bayliss Wagner</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="app/css/main.css" />
+		<!-- fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Merriweather|Oswald|Playfair+Display|Raleway" rel="stylesheet">
+		<!-- end fonts -->
+
+		<!-- FAVICONS -->
+		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+		<!-- end FAVICONS -->
+
 	</head>
 	<body class="is-preload">
 
@@ -23,117 +41,114 @@
 					<div id="main">
 						<div class="inner">
 
-							<!-- Header-->
+                <!-- Header -->
+								  <header id="header">
+								    <!-- <h3 class="logo"><strong><em>Bayliss Wagner</em></strong></h3> -->
+								    <h3><a href="index.html" class="logo">home</a></h3>
+								    <h3><a href= "portfolio.html" class = "logo">writing</a></h3>
+								    <h3><a href= "code.html" class = "logo">code, graphics, data</a></h3>
+								    <!--<a href="blog.html" class = "logo"><strong>Blog<strong></a>-->
+								    <!-- <ul class="icons">
+								      <li><a href="https://twitter.com/baylisswagner" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								      <li><a href="https://www.linkedin.com/in/bayliss-wagner-188a3515a/" class="icon fa-linkedin-ghost"><span class="label">LinkedIn</span></a></li>
+								      <li><a href="https://github.com/jbaylisswagner" class="icon fa-github-ghost"><span class="label">GitHub</span></a></li>
+								    </ul> -->
+								  </header>
 
-								<header id="header" >
-									<p><a href="index.html" class="logo"><strong>home</strong></a></p>
-									<p><a href= "portfolio.html" class = "logo"> <strong>writing<strong> </a></p>
-									<p><a href= "code.html" class = "logo" id="activate"> <strong>code, graphics, data<strong> </a></p>
-									<!--<a href="blog.html" class = "logo"><strong>Blog<strong></a>
-									<ul class="icons">
-										<li><a href="https://twitter.com/baylisswagner" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="https://www.linkedin.com/in/bayliss-wagner-188a3515a/" class="icon fa-linkedin-ghost"><span class="label">LinkedIn</span></a></li>
-										<li><a href="https://github.com/jbaylisswagner" class = "icon fa-github"><span class = "label">GitHub</span></a></li>
-									</ul>-->
-								</header>
+                  <!-- You write code for this content block in another file -->
+                  
+<div class="content">
+	<div class = "port-work">
+		<header>
+			<h1 >Audio, data reporting, & other stories</h1>
+			<p>Bayliss Wagner</p>
+		</header>
+		<table>
+			<tr>
+				<td>
+					<h2><a target = "_blank" href="https://swarthmorephoenix.com/2020/06/30/students-weigh-in-on-fall-2020/"> Survey: Awaiting Fall 2020 plan, students face housing uncertainty, safety concerns </h2></a>
+					<h4><em>June 30, 2020</em></h4>
+					<span class="image fit"><img src = "images/chart.png" alt = "'"/></span>
+					<p> This data-driven story uses visualizations and a graphic layout along with student testimony to illustrate campus sentiment during this particularly odd and isolating period of time. </p>
+					<a target = "_blank" href="https://swarthmorephoenix.com/2020/06/30/students-weigh-in-on-fall-2020/" class="button primary"> See the full story </a>
+				</td>
+				<td>
+					<h2> <a target = "_blank" href="https://swarthmorephoenix.com/2019/04/18/47956/"> (National) Cult of Misogyny: Leaked Internal Documents Reveal Silence Around Harmful Culture at Phi Psi </a> </h2>
+					<h4><em>April 18, 2019</em></h4>
+					<span class = "image fit">
+							<img src = "https://media.npr.org/assets/img/2019/05/01/ap_19119654752604-b4f30151df8a6519a8dd8b02ec6beb509b3bd7f5-s1600-c85.jpg"/>
+							<figcaption>Photo credits to AP.</figcaption>
+						</figure>
+					</span>
+					<p> In spring 2019, I led an investigation into a set of explicit, misogynistic and racist documents that an anonymous source leaked to the school paper late one Thursday night. Before the story <a href="https://www.npr.org/2019/05/02/718969495/swarthmore-fraternities-disband-over-leaked-documents-that-detailed-misogyny"> went national</a>, we had 10 days to figure out how to verify that the documents were real and that they were, in fact, from a campus fraternity. We proved not only that the documents were written by fraternity members about fraternity events, but also that they were circulated openly among the members on a Swarthmore listserv. </p>
+					<a target = "_blank" href="https://swarthmorephoenix.com/2019/04/18/47956/" class="button primary"> Read the full story </a>
+				</td>
+
+				<td>
+					<h2> <a target = "_blank" href="https://listenersofwamu.wordpress.com/2016/08/24/listeners-of-wamu-kia-chatmon/">Listeners of WAMU Project: Catherine White</a></h2><br>
+					<h4><em>August 24, 2016</em></h4>
+					<iframe width="100%" height="175%" scrolling="yes" frameborder=15px src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/279720695&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+					<p> <br> This full-length radio-style story, which was recognized in the Journalism Education Association's 2017 "Best High School Journalism" showcase, profiles a listener of WAMU 88.5 about why she listens, what she cares about, and her passions. I created this story while interning for WAMU's <a href="https://listenersofwamu.wordpress.com/">"Listeners of WAMU" project</a> in the summer of 2016. </p>
+					<a href = "https://listenersofwamu.wordpress.com/" class = "button primary"> Click here for more from the project <a>
+				</td>
+
+				<!-- <td>
+					<h2> <a target = "_blank" href="https://swarthmorephoenix.com/2018/02/08/p-a-redistricting-likely-to-amplify-swarthmore-students-voices-in-midterm-election/"> Brief: P.A. redistricting likely to amplify Swarthmore students’ voices in midterm election </a> </h2>
+					<span class = "image fit"><img src = "https://swarthmorephoenix.com/wp-content/uploads/2018/02/Screen-Shot-2018-02-07-at-10.59.41-PM-800x445.png" alt = "Map of district lines in PA district 7."/></span>
+					<p> "Under the 2011 Pennsylvania Congressional Redistricting Act, the Republican-majority Pa. General Assembly moved Swarthmore out of the 7th district, of which it had been a part for over 75 years, and into the 1st district, grouping it with reliably Democratic Philadelphia suburbs. Outside of a district so gerrymandered it has been nicknamed “Goofy Kicking Donald Duck,” the cutout of Swarthmore now outlines Goofy’s left arm, and at the neck of the peninsula-like shape that envelops the town, the 1st district is no wider than ½ mile..."</p>
+					<a target = "_blank" href="https://swarthmorephoenix.com/2018/02/08/p-a-redistricting-likely-to-amplify-swarthmore-students-voices-in-midterm-election/" class="button primary"> Read the full story </a>
+				</td> -->
+		</tr>
+			<tr>
+				<td>
+					<h2> <a target = "_blank" href="https://swarthmorephoenix.com/2020/04/30/pandemic-policy-change/"> Eliminating Letter Grades for Spring 2020: How It Happened </a> </h2>
+					<h4><em>April 30, 2020</em></h4>
+					<span class = "image fit">
+							<img src = "images/faculty_vote.png"/>
+							<figcaption></figcaption>
+						</figure>
+					</span>
+					<p> Investigation, with data visualizations, into how and why the College arrived at the decision to make all grades pass/fail for the Fall 2020 semester.</p>
+					<a target = "_blank" href="https://swarthmorephoenix.com/2020/04/30/pandemic-policy-change/" class="button primary"> Read the full story </a>
+				</td>
+				<td>
+					<h2> <a target = "_blank" href="https://swarthmorephoenix.com/2018/02/08/p-a-redistricting-likely-to-amplify-swarthmore-students-voices-in-midterm-election/"> Brief: P.A. redistricting likely to amplify Swarthmore students’ voices in midterm election </a> </h2>
+					<span class = "image fit"><img src = "https://swarthmorephoenix.com/wp-content/uploads/2018/02/Screen-Shot-2018-02-07-at-10.59.41-PM-800x445.png" alt = "Map of district lines in PA district 7."/></span>
+					<p> "Under the 2011 Pennsylvania Congressional Redistricting Act, the Republican-majority Pa. General Assembly moved Swarthmore out of the 7th district, of which it had been a part for over 75 years, and into the 1st district, grouping it with reliably Democratic Philadelphia suburbs. Outside of a district so gerrymandered it has been nicknamed “Goofy Kicking Donald Duck,” the cutout of Swarthmore now outlines Goofy’s left arm, and at the neck of the peninsula-like shape that envelops the town, the 1st district is no wider than ½ mile..."</p>
+					<a target = "_blank" href="https://swarthmorephoenix.com/2018/02/08/p-a-redistricting-likely-to-amplify-swarthmore-students-voices-in-midterm-election/" class="button primary"> Read the full story </a>
+				</td>
+				<!--<td>
+					<h2> <a target = "_blank" href="https://listenersofwamu.wordpress.com/2016/08/24/listeners-of-wamu-kia-chatmon/">Listeners of WAMU Project: Catherine White </a></h2>
+					<h4><em>August 24, 2016</em></h4>
+					<iframe width="100%" height="175%" scrolling="yes" frameborder=15px src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/279720695&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+					<p> <br> This full-length NPR-style story, which was recognized in the Journalism Education Association's 2017 "Best High School Journalism" showcase, profiles a listener of WAMU 88.5 about why she listens, what she cares about, and her passions. I created this story while interning for WAMU's <a href="https://listenersofwamu.wordpress.com/">"Listeners of WAMU" project</a> in the summer of 2016. </p>
+					<a href = "https://listenersofwamu.wordpress.com/" class = "button primary"> Click here for more from the project <a>
+				</td>-->
+				<td>
+					<h2><a target = "_blank" href="https://swarthmorephoenix.com/2018/05/03/o4s-occupies-offices-of-dean-braun-and-dean-miller-in-ongoing-protest/"> O4S occupies offices of Dean Braun and Dean Miller in ongoing protest </h2></a>
+					<h4><em>May 3, 2018</em></h4>
+					<span class="image fit"><img src = "http://swarthmorephoenix.com/wp-content/uploads/2018/05/SitIn-3_preview-1024x768.jpeg" alt = "Two women holding a poster that reads 'accountability is beth pitts resigning.'"/></span>
+					<p> "At 9:15 a.m. on Tuesday, May 1, over 30 students filed into Dean of Students Liz Braun’s office on the first floor of Parrish Hall. As Braun rose from her seat, the students — members of Organizing for Survivors, a group that has protested Title IX handling at the college since early March — placed their backpacks on the floor beside them and announced their plans to stay there indefinitely." </p>
+					<a target = "_blank" href="https://swarthmorephoenix.com/2018/05/03/o4s-occupies-offices-of-dean-braun-and-dean-miller-in-ongoing-protest/" class="button primary"> Read the full story </a>
+				</td>
+
+		</tr>
+		</table>
+	</div>
+</div>
+<!-- Footer
+<footer id="footer">
+	<p class="copyright">&copy; The design of this website is derived from <a href="https://html5up.net/editorial"> the HTML5UP Editorial theme</a> by @ajlkn,
+	which is licensed under <a href= "html5up.net/license">CC BY 3.0</a>.
+	Modified design of site by Bayliss Wagner. Licensed under <a href= "https://creativecommons.org/licenses/by/3.0/us/">CC BY 3.0</a>.</p>
+</footer>-->
+</div>
+
+</div>
 
 
-						<div class="content">
-							<div class = "port-work">
-								<header>
-									<h1 >Audio, data reporting, and other stories</h1>
-									<p>Bayliss Wagner</p>
-								</header>
-								<table>
-									<tr>
-										<td>
-											<h2><a target = "_blank" href="https://swarthmorephoenix.com/2020/06/30/students-weigh-in-on-fall-2020/"> Survey: Awaiting Fall 2020 plan, students face housing uncertainty, safety concerns </h2></a>
-											<h4><em>June 30, 2020</em></h4>
-											<span class="image fit"><img src = "images/chart.png" alt = "'"/></span>
-											<p> This data-driven story uses visualizations and a graphic layout along with student testimony to illustrate campus sentiment during this particularly odd and isolating period of time. </p>
-											<a target = "_blank" href="https://swarthmorephoenix.com/2020/06/30/students-weigh-in-on-fall-2020/" class="button primary"> See the full story </a>
-										</td>
-										<td>
-											<h2> <a target = "_blank" href="https://swarthmorephoenix.com/2019/04/18/47956/"> (National) Cult of Misogyny: Leaked Internal Documents Reveal Silence Around Harmful Culture at Phi Psi </a> </h2>
-											<h4><em>April 18, 2019</em></h4>
-											<span class = "image fit">
-													<img src = "https://media.npr.org/assets/img/2019/05/01/ap_19119654752604-b4f30151df8a6519a8dd8b02ec6beb509b3bd7f5-s1600-c85.jpg"/>
-													<figcaption>Photo credits to AP.</figcaption>
-												</figure>
-											</span>
-											<p> In spring 2019, I led an investigation into a set of explicit, misogynistic and racist documents that an anonymous source leaked to the school paper late one Thursday night. Before the story <a href="https://www.npr.org/2019/05/02/718969495/swarthmore-fraternities-disband-over-leaked-documents-that-detailed-misogyny"> went national</a>, we had 10 days to figure out how to verify that the documents were real and that they were, in fact, from a campus fraternity. We proved not only that the documents were written by fraternity members about fraternity events, but also that they were circulated openly among the members on a Swarthmore listserv. </p>
-											<a target = "_blank" href="https://swarthmorephoenix.com/2019/04/18/47956/" class="button primary"> Read the full story </a>
-										</td>
-
-										<td>
-											<h2> <a target = "_blank" href="https://listenersofwamu.wordpress.com/2016/08/24/listeners-of-wamu-kia-chatmon/">Listeners of WAMU Project: Catherine White</a></h2><br>
-											<h4><em>August 24, 2016</em></h4>
-											<iframe width="100%" height="175%" scrolling="yes" frameborder=15px src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/279720695&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-											<p> <br> This full-length radio-style story, which was recognized in the Journalism Education Association's 2017 "Best High School Journalism" showcase, profiles a listener of WAMU 88.5 about why she listens, what she cares about, and her passions. I created this story while interning for WAMU's <a href="https://listenersofwamu.wordpress.com/">"Listeners of WAMU" project</a> in the summer of 2016. </p>
-											<a href = "https://listenersofwamu.wordpress.com/" class = "button primary"> Click here for more from the project <a>
-										</td>
-
-										<!-- <td>
-											<h2> <a target = "_blank" href="https://swarthmorephoenix.com/2018/02/08/p-a-redistricting-likely-to-amplify-swarthmore-students-voices-in-midterm-election/"> Brief: P.A. redistricting likely to amplify Swarthmore students’ voices in midterm election </a> </h2>
-											<span class = "image fit"><img src = "https://swarthmorephoenix.com/wp-content/uploads/2018/02/Screen-Shot-2018-02-07-at-10.59.41-PM-800x445.png" alt = "Map of district lines in PA district 7."/></span>
-											<p> "Under the 2011 Pennsylvania Congressional Redistricting Act, the Republican-majority Pa. General Assembly moved Swarthmore out of the 7th district, of which it had been a part for over 75 years, and into the 1st district, grouping it with reliably Democratic Philadelphia suburbs. Outside of a district so gerrymandered it has been nicknamed “Goofy Kicking Donald Duck,” the cutout of Swarthmore now outlines Goofy’s left arm, and at the neck of the peninsula-like shape that envelops the town, the 1st district is no wider than ½ mile..."</p>
-											<a target = "_blank" href="https://swarthmorephoenix.com/2018/02/08/p-a-redistricting-likely-to-amplify-swarthmore-students-voices-in-midterm-election/" class="button primary"> Read the full story </a>
-										</td> -->
-								</tr>
-									<tr>
-										<td>
-											<h2> <a target = "_blank" href="https://swarthmorephoenix.com/2020/04/30/pandemic-policy-change/"> Eliminating Letter Grades for Spring 2020: How It Happened </a> </h2>
-											<h4><em>April 30, 2020</em></h4>
-											<span class = "image fit">
-													<img src = "images/faculty_vote.png"/>
-													<figcaption></figcaption>
-												</figure>
-											</span>
-											<p> Investigation, with data visualizations, into how and why the College arrived at the decision to make all grades pass/fail for the Fall 2020 semester.</p>
-											<a target = "_blank" href="https://swarthmorephoenix.com/2020/04/30/pandemic-policy-change/" class="button primary"> Read the full story </a>
-										</td>
-										<td>
-											<h2> <a target = "_blank" href="https://swarthmorephoenix.com/2018/02/08/p-a-redistricting-likely-to-amplify-swarthmore-students-voices-in-midterm-election/"> Brief: P.A. redistricting likely to amplify Swarthmore students’ voices in midterm election </a> </h2>
-											<span class = "image fit"><img src = "https://swarthmorephoenix.com/wp-content/uploads/2018/02/Screen-Shot-2018-02-07-at-10.59.41-PM-800x445.png" alt = "Map of district lines in PA district 7."/></span>
-											<p> "Under the 2011 Pennsylvania Congressional Redistricting Act, the Republican-majority Pa. General Assembly moved Swarthmore out of the 7th district, of which it had been a part for over 75 years, and into the 1st district, grouping it with reliably Democratic Philadelphia suburbs. Outside of a district so gerrymandered it has been nicknamed “Goofy Kicking Donald Duck,” the cutout of Swarthmore now outlines Goofy’s left arm, and at the neck of the peninsula-like shape that envelops the town, the 1st district is no wider than ½ mile..."</p>
-											<a target = "_blank" href="https://swarthmorephoenix.com/2018/02/08/p-a-redistricting-likely-to-amplify-swarthmore-students-voices-in-midterm-election/" class="button primary"> Read the full story </a>
-										</td>
-										<!--<td>
-											<h2> <a target = "_blank" href="https://listenersofwamu.wordpress.com/2016/08/24/listeners-of-wamu-kia-chatmon/">Listeners of WAMU Project: Catherine White </a></h2>
-											<h4><em>August 24, 2016</em></h4>
-											<iframe width="100%" height="175%" scrolling="yes" frameborder=15px src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/279720695&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-											<p> <br> This full-length NPR-style story, which was recognized in the Journalism Education Association's 2017 "Best High School Journalism" showcase, profiles a listener of WAMU 88.5 about why she listens, what she cares about, and her passions. I created this story while interning for WAMU's <a href="https://listenersofwamu.wordpress.com/">"Listeners of WAMU" project</a> in the summer of 2016. </p>
-											<a href = "https://listenersofwamu.wordpress.com/" class = "button primary"> Click here for more from the project <a>
-										</td>-->
-										<td>
-											<h2><a target = "_blank" href="https://swarthmorephoenix.com/2018/05/03/o4s-occupies-offices-of-dean-braun-and-dean-miller-in-ongoing-protest/"> O4S occupies offices of Dean Braun and Dean Miller in ongoing protest </h2></a>
-											<h4><em>May 3, 2018</em></h4>
-											<span class="image fit"><img src = "http://swarthmorephoenix.com/wp-content/uploads/2018/05/SitIn-3_preview-1024x768.jpeg" alt = "Two women holding a poster that reads 'accountability is beth pitts resigning.'"/></span>
-											<p> "At 9:15 a.m. on Tuesday, May 1, over 30 students filed into Dean of Students Liz Braun’s office on the first floor of Parrish Hall. As Braun rose from her seat, the students — members of Organizing for Survivors, a group that has protested Title IX handling at the college since early March — placed their backpacks on the floor beside them and announced their plans to stay there indefinitely." </p>
-											<a target = "_blank" href="https://swarthmorephoenix.com/2018/05/03/o4s-occupies-offices-of-dean-braun-and-dean-miller-in-ongoing-protest/" class="button primary"> Read the full story </a>
-										</td>
-
-								</tr>
-								</table>
-							</div>
-						</div>
-						<!-- Footer
-						<footer id="footer">
-							<p class="copyright">&copy; The design of this website is derived from <a href="https://html5up.net/editorial"> the HTML5UP Editorial theme</a> by @ajlkn,
-							which is licensed under <a href= "html5up.net/license">CC BY 3.0</a>.
-							Modified design of site by Bayliss Wagner. Licensed under <a href= "https://creativecommons.org/licenses/by/3.0/us/">CC BY 3.0</a>.</p>
-						</footer>-->
-						</div>
-
-					</div>
-
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+                  <script src="bower_components/jquery/dist/jquery.js"></script>
+                  <script src="js/main.js"></script>
 
 	</body>
 </html>

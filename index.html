@@ -1,3 +1,9 @@
+
+<!--
+layout.nunjucks
+all content here will be included & updated on every page of my website !
+ -->
+
 <!DOCTYPE HTML>
 <html lang="en">
 <!--
@@ -11,24 +17,20 @@
 		<title>Bayliss Wagner</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-<<<<<<< HEAD
+		<link rel="stylesheet" href="app/css/main.css" />
 		<!-- fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Merriweather|Oswald|Playfair+Display|Raleway" rel="stylesheet">
 		<!-- end fonts -->
 
 		<!-- FAVICONS -->
-		<!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/site.webmanifest">
+		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
 		<meta name="msapplication-TileColor" content="#da532c">
-		<meta name="theme-color" content="#ffffff"> -->
+		<meta name="theme-color" content="#ffffff">
 		<!-- end FAVICONS -->
 
-=======
-		<link href="https://fonts.googleapis.com/css?family=Merriweather|Oswald|Playfair+Display|Raleway" rel="stylesheet">
->>>>>>> parent of 147fd9d... added favicon s + code
 	</head>
 	<body class="is-preload">
 
@@ -39,274 +41,68 @@
 					<div id="main">
 						<div class="inner">
 
-							<!-- Header-->
-							<header>
-							<div id="mymenu"></div>
-     					<div data-includeHTML="_HeaderPartial.html"></div>
-							</header>
+                <!-- Header -->
+								  <header id="header">
+								    <!-- <h3 class="logo"><strong><em>Bayliss Wagner</em></strong></h3> -->
+								    <h3><a href="index.html" class="logo">home</a></h3>
+								    <h3><a href= "portfolio.html" class = "logo">writing</a></h3>
+								    <h3><a href= "code.html" class = "logo">code, graphics, data</a></h3>
+								    <!--<a href="blog.html" class = "logo"><strong>Blog<strong></a>-->
+								    <!-- <ul class="icons">
+								      <li><a href="https://twitter.com/baylisswagner" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								      <li><a href="https://www.linkedin.com/in/bayliss-wagner-188a3515a/" class="icon fa-linkedin-ghost"><span class="label">LinkedIn</span></a></li>
+								      <li><a href="https://github.com/jbaylisswagner" class="icon fa-github-ghost"><span class="label">GitHub</span></a></li>
+								    </ul> -->
+								  </header>
+
+                  <!-- You write code for this content block in another file -->
+                  
+
+<!-- Banner -->
+  <section id="banner">
+    <div class="content">
+      <header>
+        <h1>Bayliss Wagner</h1>
+      </header>
+
+      <p>I am an enthusiastic writer, coder, reporter, and reader in Swarthmore's Class of 2021. </p>
+
+      <h3>What I'm currently up to:</h3>
+      <ul>
+        <li> Coding this portfolio site (because why practice self-care when you can try the same line of CSS in three different places instead?)</li>
+        <li> Cooking and posting my quarantine recipes on <a href="https://www.instagram.com/baylisscooks/">Instagram</a> (like everyone else you know)</li>
+        <li> Interviewing students and writing about them for the <a href="https://www.swarthmore.edu/news-events">Swarthmore College News & Events page</a> and the <a href="https://bulletin.swarthmore.edu/">alumni magazine</a> </li>
+        <!-- <li> Starting research on the function of social connections in undergraduate programs and how they change in online learning for the <a href="https://aydelotte.swarthmore.edu/">Aydelotte Foundation</a></li>
+        <li> Keeping a quarantine journal (my friend who just took a course on the Black Plague told me to keep a "plague journal," but let's just refer to it this way) </li>
+
+        <li>Monitoring <a href="https://swarthmorephoenix.com/"><em>The Phoenix</em> website.</a> I have learned that 1) CleanTalk is the best anti-spam plugin and 2) comments need to be verified... one spam attack was enough for me. </li>
+        <li>More coding (check out my GitHub profile <a href="https://github.com/jbaylisswagner">here</a>!)</li>
+         -->
+        <!-- <li>Reading:</li>
+          <ul>
+            <li><a href= "http://www.eurolitnetwork.com/elit-book-tip-maryam-madjidi-marx-et-la-poupee-by-katja-petrovic/"><em>Marx et la Poupée</em></a> by Maryam Madjiji</li>
+            <li><a href="https://www.nytimes.com/2005/09/18/books/review/zadie-smiths-culture-warriors.html"><em>On Beauty</em></a> by Zadie Smith</li>
+          </ul>
+        <li>Watching:</li>
+            <ul>
+              <li> Queen's Gambit </li>
+              <li> Call My Agent <a href= "https://www.netflix.com/title/80133335">on Netflix</a></li>
+            </ul>-->
+      </ul>
+      <p> <a href= "https://resume.creddle.io/resume/bmg1wbk6k18" target = "_blank">Click here to see my resume.</a> </p>
+      <!--<ul class="actions">
+        <li><a href="#" class="button big">Learn More</a></li>
+      </ul>-->
+    </div>
+    <span class="image object">
+      <img src="images/profile2.jpg" class = "img-fluid rounded float-right" alt="Photo of myself." width = "500" height = "350" />
+    </span>
+  </section>
 
 
-							<!-- Banner -->
-								<section id="banner">
-									<div class="content">
-										<header>
-											<h1>Bayliss Wagner</h1>
-										</header>
 
-										<p>I am an enthusiastic writer, coder, reporter, and reader in Swarthmore's Class of 2021. </p>
-										<div id="container"></div>
+                  <script src="bower_components/jquery/dist/jquery.js"></script>
+                  <script src="js/main.js"></script>
 
-											<template id="template">
-											  <div>Click me</div>
-											</template>
-										<h3>What I'm currently up to:</h3>
-										<ul>
-											<li> Coding this portfolio site (because why practice self-care when you can try the same line of CSS in three different places instead?)</li>
-											<li> Cooking and posting my quarantine recipes on <a href="https://www.instagram.com/baylisscooks/">Instagram</a> (like everyone else you know)</li>
-											<li> Interviewing students and writing about them for the <a href="https://www.swarthmore.edu/news-events">Swarthmore College News & Events page</a> and the <a href="https://bulletin.swarthmore.edu/">alumni magazine</a> </li>
-											<!-- <li> Starting research on the function of social connections in undergraduate programs and how they change in online learning for the <a href="https://aydelotte.swarthmore.edu/">Aydelotte Foundation</a></li>
-											<li> Keeping a quarantine journal (my friend who just took a course on the Black Plague told me to keep a "plague journal," but let's just refer to it this way) </li>
-
-											<li>Monitoring <a href="https://swarthmorephoenix.com/"><em>The Phoenix</em> website.</a> I have learned that 1) CleanTalk is the best anti-spam plugin and 2) comments need to be verified... one spam attack was enough for me. </li>
-											<li>More coding (check out my GitHub profile <a href="https://github.com/jbaylisswagner">here</a>!)</li>
-											 -->
-											<!-- <li>Reading:</li>
-												<ul>
-													<li><a href= "http://www.eurolitnetwork.com/elit-book-tip-maryam-madjidi-marx-et-la-poupee-by-katja-petrovic/"><em>Marx et la Poupée</em></a> by Maryam Madjiji</li>
-													<li><a href="https://www.nytimes.com/2005/09/18/books/review/zadie-smiths-culture-warriors.html"><em>On Beauty</em></a> by Zadie Smith</li>
-												</ul>
-											<li>Watching:</li>
-													<ul>
-														<li> Queen's Gambit </li>
-														<li> Call My Agent <a href= "https://www.netflix.com/title/80133335">on Netflix</a></li>
-													</ul>-->
-										</ul>
-										<p> <a href= "https://resume.creddle.io/resume/bmg1wbk6k18" target = "_blank">Click here to see my resume.</a> </p>
-										<!--<ul class="actions">
-											<li><a href="#" class="button big">Learn More</a></li>
-										</ul>-->
-									</div>
-									<span class="image object">
-										<img src="images/profile2.jpg" class = "img-fluid rounded float-right" alt="Photo of myself." width = "500" height = "350" />
-									</span>
-								</section>
-
-							<!-- Section
-								<section>
-									<header class="major">
-										<h2>Erat lacinia</h2>
-									</header>
-									<div class="features">
-										<article>
-											<span class="icon fa-diamond"></span>
-											<div class="content">
-												<h3>Portitor ullamcorper</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon fa-paper-plane"></span>
-											<div class="content">
-												<h3>Sapien veroeros</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon fa-rocket"></span>
-											<div class="content">
-												<h3>Quam lorem ipsum</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon fa-signal"></span>
-											<div class="content">
-												<h3>Sed magna finibus</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-									</div>
-								</section>
-							-->
-							<!-- Section
-								<section>
-									<header class="major">
-										<h2>Ipsum sed dolor</h2>
-									</header>
-									<div class="posts">
-										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<h3>Interdum aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-											<h3>Nulla amet dolore</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<h3>Tempus ullamcorper</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3>Sed etiam facilis</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3>Feugiat lorem aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-											<h3>Amet varius aliquam</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-									</div>
-								</section>
-
-						</div>
-					</div>
--->
-				<!-- Sidebar
-					<div id="sidebar">
-						<div class="inner">
--->
-							<!-- Search
-								<section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
-								</section>
--->
-							<!-- Menu
-								<nav id="menu">
-									<header class="major">
-										<h2>Menu</h2>
-									</header>
-									<ul>
-										<li><a href="index.html">Homepage</a></li>
-										<li><a href="generic.html">Generic</a></li>
-										<li><a href="elements.html">Elements</a></li>
-										<li>
-											<span class="opener">Submenu</span>
-											<ul>
-												<li><a href="#">Lorem Dolor</a></li>
-												<li><a href="#">Ipsum Adipiscing</a></li>
-												<li><a href="#">Tempus Magna</a></li>
-												<li><a href="#">Feugiat Veroeros</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Etiam Dolore</a></li>
-										<li><a href="#">Adipiscing</a></li>
-										<li>
-											<span class="opener">Another Submenu</span>
-											<ul>
-												<li><a href="#">Lorem Dolor</a></li>
-												<li><a href="#">Ipsum Adipiscing</a></li>
-												<li><a href="#">Tempus Magna</a></li>
-												<li><a href="#">Feugiat Veroeros</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Maximus Erat</a></li>
-										<li><a href="#">Sapien Mauris</a></li>
-										<li><a href="#">Amet Lacinia</a></li>
-									</ul>
-								</nav>
-							-->
-							<!-- Section
-								<section>
-									<header class="major">
-										<h2>Ante interdum</h2>
-									</header>
-									<div class="mini-posts">
-										<article>
-											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-									</div>
-									<ul class="actions">
-										<li><a href="#" class="button">More</a></li>
-									</ul>
-								</section>
--->
-							<!-- Section
-								<section>
-									<header class="major">
-										<h2>Get in touch</h2>
-									</header>
-									<p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-									<ul class="contact">
-										<li class="fa-envelope-o"><a href="#">information@untitled.tld</a></li>
-										<li class="fa-phone">(000) 000-0000</li>
-										<li class="fa-home">1234 Somewhere Road #8254<br />
-										Nashville, TN 00000-0000</li>
-									</ul>
-								</section>
-							-->
-							<!-- Footer
-							<footer id="footer">
-								<p class="copyright">&copy; The design of this website is derived from <a href="https://html5up.net/editorial"> the HTML5UP Editorial theme</a> by @ajlkn,
-								which is licensed under <a href= "html5up.net/license">CC BY 3.0</a>.
-								Modified design of site by Bayliss Wagner. Licensed under <a href= "https://creativecommons.org/licenses/by/3.0/us/">CC BY 3.0</a>.</p>
-							</footer>-->
-
-						<!--</div>
-					</div>
-
-			</div>-->
-			<footer>
-			    <div data-includeHTML="_FooterPartial.html"></div>
-					<script type="text/javascript" src="incl/copyright.js"&g>
-			</footer>
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-			<!-- jquery   -->
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-			<script>
-			    $(document).ready(function () {
-			        $("div[data-includeHTML]").each(function () {
-			            $(this).load($(this).attr("data-includeHTML"));
-			        });
-			    });
-			</script>
-			<script>
-					$(document).ready(function() {
-		    		$('#my-menu').load('incl/mymenu.html');
-					});
-			</script>
 	</body>
 </html>
