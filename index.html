@@ -12,13 +12,19 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<!-- fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Merriweather|Oswald|Playfair+Display|Raleway" rel="stylesheet">
+		<!-- end fonts -->
+
+		<!-- FAVICONS -->
+		<!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 		<link rel="manifest" href="/site.webmanifest">
 		<meta name="msapplication-TileColor" content="#da532c">
-		<meta name="theme-color" content="#ffffff">
-		<link href="https://fonts.googleapis.com/css?family=Merriweather|Oswald|Playfair+Display|Raleway" rel="stylesheet">
+		<meta name="theme-color" content="#ffffff"> -->
+		<!-- end FAVICONS -->
+
 	</head>
 	<body class="is-preload">
 
@@ -30,18 +36,11 @@
 						<div class="inner">
 
 							<!-- Header-->
+							<header>
+							<div id="mymenu"></div>
+     					<div data-includeHTML="_HeaderPartial.html"></div>
+							</header>
 
-								<header id="header">
-									<!-- <h3 class="logo"><strong><em>Bayliss Wagner</em></strong></h3> -->
-									<h3><a href="index.html" class="logo">home</a></h3>
-									<h3><a href= "portfolio.html" class = "logo">writing</a></h3>
-									<h3><a href= "code.html" class = "logo">code, graphics, data</a></h3>
-									<!--<a href="blog.html" class = "logo"><strong>Blog<strong></a>-->
-									<!--<ul class="icons">
-										<li><a href="https://twitter.com/baylisswagner" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="https://www.linkedin.com/in/bayliss-wagner-188a3515a/" class="icon fa-linkedin-ghost"><span class="label">LinkedIn</span></a></li>
-									</ul>-->
-								</header>
 
 							<!-- Banner -->
 								<section id="banner">
@@ -49,12 +48,18 @@
 										<header>
 											<h1>Bayliss Wagner</h1>
 										</header>
+
 										<p>I am an enthusiastic writer, coder, reporter, and reader in Swarthmore's Class of 2021. </p>
+										<div id="container"></div>
+
+											<template id="template">
+											  <div>Click me</div>
+											</template>
 										<h3>What I'm currently up to:</h3>
 										<ul>
 											<li> Coding this portfolio site (because why practice self-care when you can try the same line of CSS in three different places instead?)</li>
 											<li> Cooking and posting my quarantine recipes on <a href="https://www.instagram.com/baylisscooks/">Instagram</a> (like everyone else you know)</li>
-											<li> Interviewing students and writing about them for the <a href="https://bulletin.swarthmore.edu/">Swarthmore College Bulletin</a> </li>
+											<li> Interviewing students and writing about them for the <a href="https://www.swarthmore.edu/news-events">Swarthmore College News & Events page</a> and the <a href="https://bulletin.swarthmore.edu/">alumni magazine</a> </li>
 											<!-- <li> Starting research on the function of social connections in undergraduate programs and how they change in online learning for the <a href="https://aydelotte.swarthmore.edu/">Aydelotte Foundation</a></li>
 											<li> Keeping a quarantine journal (my friend who just took a course on the Black Plague told me to keep a "plague journal," but let's just refer to it this way) </li>
 
@@ -274,7 +279,10 @@
 					</div>
 
 			</div>-->
-
+			<footer>
+			    <div data-includeHTML="_FooterPartial.html"></div>
+					<script type="text/javascript" src="incl/copyright.js"&g>
+			</footer>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
@@ -282,5 +290,19 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+			<!-- jquery   -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<script>
+			    $(document).ready(function () {
+			        $("div[data-includeHTML]").each(function () {
+			            $(this).load($(this).attr("data-includeHTML"));
+			        });
+			    });
+			</script>
+			<script>
+					$(document).ready(function() {
+		    		$('#my-menu').load('incl/mymenu.html');
+					});
+			</script>
 	</body>
 </html>
