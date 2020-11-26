@@ -180,7 +180,7 @@ input, select, textarea {
 .port-work-coding .port-list .port-item{
 		flex-wrap: wrap;
 		padding: 10px 0 10px 0;
-		margin: auto;
+		margin: 30px 0;
 		flex: 1 1 100%;
 		justify-content: center;
 }

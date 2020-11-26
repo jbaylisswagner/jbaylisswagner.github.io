@@ -10,6 +10,11 @@ var browserSync = require('browser-sync').create();
 //var runSequence = require('run-sequence');
 var sass = require('gulp-sass');
 
+gulp.task('hi', function(done){
+      console.log('hi!');
+      done();
+    });
+
 
 /*--------------------------- NUNJUCKS ----------------------------
 Fill HTML files in the 'app/pages/' directory with templates and
@@ -68,8 +73,8 @@ variables
 ---------------------------------------------------------------------- */
 function watcher(cb) {
     //gulp.watch('app/scss/**/*.scss', sassTask);
-    gulp.watch('app/**/*.html', nunjucksRender);
-    gulp.watch('app/js/**/*.+(js|html)', browserifyTask);
+    gulp.watch('app/**/*.html', gulp.series('nunjucks'));
+    //gulp.watch('app/js/**/*.+(js|html)', 'browserifyTask');
     gulp.watch('app/css/*.css', browserSync.reload);
     gulp.watch('app/*.html', browserSync.reload);
     gulp.watch('app/js/**/*.js', browserSync.reload);
@@ -77,10 +82,7 @@ function watcher(cb) {
 };
 gulp.task(watcher);
 
-gulp.task('hi', function(done){
-      console.log('hi!');
-      done();
-    });
+
 
 /*--------------------------- DEFAULT ----------------------------
 spin up a server & watch changes; default task for when i am
@@ -90,8 +92,8 @@ developing
 //   gulp.series('nunjucks', 'browser-sync', 'watcher');
 //   cb();
 // });
-exports.default = gulp.series('nunjucks', 'browser-sync', 'hi', 'watcher', 'hi');
-
+exports.default = gulp.series(gulp.parallel('nunjucks', 'browser-sync', 'watcher'), 'hi');
+exports.build = gulp.series('nunjucks');
 /*--------------------------- BROWSERIFY----------------------------
 capabilities:
 -bundling multiple entry points into multiple destinations
