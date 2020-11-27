@@ -3,7 +3,7 @@
 
 {% block content %}
 <div class="content">
-  <div class = "port-work-coding">
+  <div id = "port-work-coding">
     <header>
       <h1>coding, graphics, and data portfolio </h1>
       <p>Bayliss Wagner</p>
@@ -16,12 +16,19 @@
                               <div class="intro">
                                 <h2><strong><a href="https://stage.www.inquirer.com/preview/VXKJPCDPS5HVJIFQQDYDY5MNVU/">Interactive Restaurant Guide</a>, <em>The Philadelphia Inquirer</em></strong></h2>
                              </div>
-                                <div class="port-image"><img src = "images/frontstreet.png" /></div>
+                             <div class="iframe-container"><iframe
+                                title="Restaurant Guide"
+                                width="700"
+                                height="400"
+                                src="https://stage.www.inquirer.com/preview/VXKJPCDPS5HVJIFQQDYDY5MNVU/">
+                            </iframe>
+                            </div>
+                                <!-- <div class="port-image"><img src = "images/frontstreet.png" />-->
                                 <br>
                                 <div class="description">
-                                  <strong>description:</strong>
+                                  <strong><h5>description:</h5></strong>
                                   <p> An interactive restaurant guide that allows users to browse around 25 vegan & gluten-free restaurants by neighborhood and filter the list by dietary restriction.</p>
-                                    <strong>my role & what i learned from this project:</strong>
+                                    <strong><h5>my role & what i learned from this project:</h5></strong>
                                     <p> On the development side, I used Javascript, HTML, and CSS to design and developed the mobile, tablet and web user interfaces. To streamline the large amount of copy and data we kept, I also created a backend for the project that connects Node.js to Google Drive documents. On the editorial side, I worked with another intern to pitch, research, vet, photograph and write the copy about the restaurants. Throughout every stage of this project I incorporated feedback from my editor on the guide’s design as well as feedback from the editor of the Food section, as well as feedback from user testing, I conducted with the team. The project has not yet been published, but it can be found at the 'live page' link below.	</p>
                                 </div>
                                 <!--<a target = "_blank" href="link" class="button primary"> Watch </a>-->
@@ -30,16 +37,25 @@
                                 <a  class="button primary" target = "_blank" href="https://stage.www.inquirer.com/preview/VXKJPCDPS5HVJIFQQDYDY5MNVU/">live page</a>
                                 </div>
                               </div>
+
+
           <div class="port-item">
           <div class="intro">
-          <h2><strong><a href="https://www.inquirer.com/news/new-jersey/inq/jersey-shore-beaches-closures-new-jersey-delaware-20190619.html">Live New Jersey & Delaware Beaches Map</a></strong>, <em>The Philadelphia Inquirer</em></h2>
+          <h2><strong><a target = "_blank" href="https://www.inquirer.com/news/new-jersey/inq/jersey-shore-beaches-closures-new-jersey-delaware-20190619.html">Live New Jersey & Delaware Beaches Map</a></strong>, <em>The Philadelphia Inquirer</em></h2>
        </div>
-          <span class="port-image"><img src = "images/shoremap.png" /></span>
+      <div class="iframe-container"><iframe
+         title="shoremap"
+         width="700"
+         height="400"
+         src="https://www.inquirer.com/news/new-jersey/inq/jersey-shore-beaches-closures-new-jersey-delaware-20190619.html">
+     </iframe>
+     </div>
+          <!-- <span class="port-image"><img src = "images/shoremap.png" /></span> -->
           <br>
           <div class="description">
-            <strong>description:</strong>
+            <strong><h5>description:</h5></strong>
             <p> This interactive shore guide allows users to explore dozens of NJ and DE beaches and see in advance of a trip whether beaches are closed, open or under advisory and for what reasons. In addition, users can check the weather and get driving directions to each of these beaches, which are displayed on a map.</p>
-              <strong>my role & what i learned from this project:</strong>
+              <strong><h5>my role & what i learned from this project:</h5></strong>
               <p> I talked with state environmental control officials, lifeguards, and beach patrol directors to fact-check and find context for the data. This information went into the explanatory copy for the guide.  I then used Python web-scraping and data-processing libraries to create a function that would scrape the data for Delaware beaches from its website and feed it into the web page, live, every hour, and input it cleanly into the existing framework for the project. I performed multiple phases of user testing to make sure the design was as user-friendly as possible and to ensure we caught all bugs before we launched the project.	</p>
           </div>
           <!--<a target = "_blank" href="link" class="button primary"> Watch </a>-->
@@ -52,14 +68,16 @@
 <!-- DATA STORY -->
       <div class="port-item">
         <div class="intro">
-          <h2><strong><a href="https://swarthmorephoenix.com/2020/06/30/students-weigh-in-on-fall-2020/">Survey: Awaiting Fall 2020 plan, students face housing uncertainty, safety concerns</a></strong>, <em>The Swarthmore Phoenix</em></h2>
+          <h2><strong><a target = "_blank" href="https://swarthmorephoenix.com/2020/06/30/students-weigh-in-on-fall-2020/">Survey: Awaiting Fall 2020 plan, students face housing uncertainty, safety concerns</a></strong>, <em>The Swarthmore Phoenix</em></h2>
        </div>
-          <span class="port-image"><img src = "images/chart.png" /></span>
+
+            <div class='iframe-container'><iframe title="Fall 2020 format preferences, broken down by demographics" aria-label="Stacked Bars" id="datawrapper-chart-LSKGX" src="https://datawrapper.dwcdn.net/LSKGX/1/" scrolling="no" frameborder="0" style="border: none;" width="450" height="500"></iframe></div>
+
           <br>
           <div class="description">
-            <strong>description:</strong>
+            <strong><h5>description:</h5></strong>
             <p> A fellow reporter and I conducted a survey of Swarthmore students to gauge students’ enrollment plans for fall 2020 as well as challenges they faced during the pandemic, with data visualizations and breakdowns.</p>
-            <strong>my role & what i learned from this project:</strong>
+            <strong><h5>my role & what i learned from this project:</h5></strong>
               <p> In addition to sharing the writing and reporting with my partner, I designed the article layout and all graphical elements, which included numerous analyses & visualizations of survey data, featured quotes, and bulleted 'findings' sections. Used custom HTML embeds in Wordpress to edit design. </p>
           </div>
           <!--<a target = "_blank" href="link" class="button primary"> Watch </a>-->
@@ -73,28 +91,43 @@
             <h2><strong><a href="jbaylisswagner.github.io">My personal website</a> (hint: you're on it now)</strong></h2>
          </div>
          <div class="description">
+           <strong><h3>description:</h3></strong>
          <p> I coded the site by extensively modifying a free template and installed a Gulp development system that uses nunjucks for templating & browser-sync for live dev.	</p>
         </div>
          <div class = "links" style="align-content:center;">
             <a class="button primary" target = "_blank" href="https://github.com/jbaylisswagner/jbaylisswagner.github.io">GitHub repository</a>
           </div>
         </div>
-          <tr>
-            <td><h2> Novel Data Parser </h2>
-            <span class="image fit"><img src = "images/context.png" /></span>
-            <p> This Python file, created for a Digital Humanities
-                                      assignment (woohoo), takes single novels or a corpora
-                                      of novels as input. The user can choose novels from
-                                      these files and compare them. The program displays
-                                      "most frequent words" in each novel and "most distinctive words"
-                                      in each through comparison. The program also displays the "context"
-                                      (surrounding words) of any word in the novel. (Ex: input "love" will
-                                       display every use of the word "love" in the novel). I experimented
-                                       with removing different stopwords when we returned to this program
-                                       for my English class. </p>
+
+<!-- NOVEL PARSER -->
+        <div class="port-item">
+          <div class="intro">
+            <h2><strong>Novel Data Parser</strong></h2>
+         </div>
+            <span class="port-image"><img src = "images/context.png"/></span>
+            <br>
+            <div class="description">
+              <strong><h5>description:</h5></strong>
+              <p> This Python file, created for a Digital Humanities
+                                        assignment, takes single novels or a corpora
+                                        of novels as input. The user can choose novels from
+                                        these files and compare them. The program displays
+                                        "most frequent words" in each novel and "most distinctive words"
+                                        in each through comparison. The program also displays the "context"
+                                        (surrounding words) of any word in the novel. (Ex: input "love" will
+                                         display every use of the word "love" in the novel). I experimented
+                                         with removing different stopwords when we returned to this program
+                                         for my English class. </p>
+              <!-- <strong>my role & what i learned from this project:</strong>
+                <p> In addition to sharing the writing and reporting with my partner, I designed the article layout and all graphical elements, which included numerous analyses & visualizations of survey data, featured quotes, and bulleted 'findings' sections. Used custom HTML embeds in Wordpress to edit design. </p> -->
+            </div>
+            <!--<a target = "_blank" href="link" class="button primary"> Watch </a>-->
+            <div class = "links">
             <a target = "_blank" href="http://rise18.rachelsagnerbuurma.org/2018/12/10/assignment-8-word-choice-fictionality" class="button primary" target = "_blank"> Read my analysis of the program's results </a>
-          </td>
-        </td>
+            </div>
+          </div>
+
+
                             <!-- <td><h2> Ticket to Ride Game </h2>
           <span class="image fit"><img src = "images/railway.png" /></span>
           <p> This game, which resembles Catan, was designed to work with a GUI that our professor had designed.
@@ -103,10 +136,9 @@
                                     implement graphAlgorithms and adjacencyListUndirectedGraph-inl.h </p>
 
         </td> -->
-          </tr>
-          </table>
+
         </div>
 </div>
-</section>
+<!-- </section> -->
 
 {% endblock %}

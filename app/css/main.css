@@ -77,14 +77,28 @@ input, select, textarea {
 	appearance: none;
 }
 
+.iframe-container {
+  overflow: hidden;
+  /* 16:9 aspect ratio */
+  padding-top: 56.25%;
+  position: relative;
+}
 
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
 
 /*Portfolio*/
 .port-work{
 	background: white
 }
 
-.port-work h1,h2,h3,h4,h5,h6 {
+.port-work h1,h2,h3 {
 	font-family: "Merriweather", serif;
 }
 
@@ -124,60 +138,62 @@ input, select, textarea {
 }
 
 /*CODING !!!!!!! Portfolio*/
-.port-work-coding{
+#port-work-coding{
 	background: white
 	margin: auto;
 }
 
-.port-work-coding h1,h2,h3,h4,h5,h6 {
-	font-family: "Merriweather", serif;
+#port-work-coding h1,h2,h3,h4,h5,h6 {
+	font-family: Raleway, sans-serif;
 }
 
-.port-work-coding header{
+#port-work-coding header{
 	text-align: center;
 	border: 5px;
 	padding: 1.5em 0 1.5em 0;
 }
 
-.port-work-coding h1{
+#port-work-coding h1{
 	font-size: 2.5em;
 }
 
-.port-work-coding h2{
+#port-work-coding h2{
 	font-size: 1.5em;
 
 }
 
-.port-work-coding table{
+#port-work-coding table{
 	overflow: auto;
 	padding: 5px;
 }
 
-.port-work-coding td{
+#port-work-coding td{
 	width: 50%;
 	padding: 20px;
 	border: 40px;
 }
 
-.port-work-coding p{
-	font-family: Raleway, sans-serif;
+#port-work-coding p{
+	font-family: Georgia, sans-serif;
+	color: black;
+	font-size: 14px;
 }
 
-.port-work-coding img{
+#port-work-coding img{
 	max-width: 100%;
   height: auto;
 
 }
 
-.port-work-coding .port-list{
+#port-work-coding .port-list{
 		flex-wrap: wrap;
-		max-width:80%;
+		max-width:70%;
 		margin:auto;
 		justify-content: center;
 
 }
 
-.port-work-coding .port-list .port-item{
+#port-work-coding .port-list .port-item{
 		flex-wrap: wrap;
 		padding: 10px 0 10px 0;
 		margin: 30px 0;
@@ -185,7 +201,7 @@ input, select, textarea {
 		justify-content: center;
 }
 
-.port-work-coding .port-list .port-item .intro {
+#port-work-coding .port-list .port-item .intro {
 		flex-wrap: wrap;
 		order: 0;
 		flex: 1 1 100%;
@@ -193,7 +209,7 @@ input, select, textarea {
 		font-weight:500;
 }
 
-.port-work-coding .port-list .port-item .port-image{
+#port-work-coding .port-list .port-item .port-image{
 		flex-wrap: wrap;
 		order:1;
 		float: none;
@@ -203,13 +219,15 @@ input, select, textarea {
 		margin: auto;
 }
 
-.port-work-coding .port-list .port-item .description{
+#port-work-coding .port-list .port-item .description{
 		flex-wrap: wrap;
 		padding: 8px 8px 8px 8px;
 		margin: 10px 25px 0 25px;
+		font-size: 12pt;
+		font-family: Georgia, serif;
 }
 
-.port-work-coding .port-list .port-item .links{
+#port-work-coding .port-list .port-item .links{
 	display: flex;
 	padding: 10px 0 0 0;
 	-webkit-box-sizing: border-box;
@@ -219,7 +237,7 @@ input, select, textarea {
 	clear: both;
 }
 
-.port-work-coding .port-list .port-item .links a{
+#port-work-coding .port-list .port-item .links a{
 	display: flex;
 	padding: 0 10px 0 10px;
 	margin: 0 15px 0 15px;
@@ -2227,7 +2245,8 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 50%;
+			/*padding: 20px;*/
 		}
 
 			.image.left img, .image.right img {
@@ -3528,12 +3547,14 @@ input, select, textarea {
 
 /* Banner */
 
+
 	#banner {
 		padding: 4em 0 4em 0 ;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		box-sizing: border-box;
 	}
 
 		#banner h1 {
@@ -3541,6 +3562,10 @@ input, select, textarea {
 		}
 
 		#banner .content {
+			flex-wrap: wrap;
+			display: inline-flex;
+			flex: 1 1 100%;
+
 			-moz-flex-grow: 1;
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
@@ -3552,7 +3577,39 @@ input, select, textarea {
 			width: 50%;
 		}
 
-		#banner .image {
+		#banner .rightbox{
+			flex-wrap: wrap;
+			display: inline-flex;
+			flex: 1 1 50%;
+			padding: 30px;
+			-moz-flex-grow: 1;
+			-webkit-flex-grow: 1;
+			-ms-flex-grow: 1;
+			flex-grow: 1;
+			-moz-flex-shrink: 1;
+			-webkit-flex-shrink: 1;
+			-ms-flex-shrink: 1;
+			flex-shrink: 1;
+			width: 50%;
+		}
+
+		#banner .textsection{
+			flex-wrap: wrap;
+			display: inline-flex;
+			flex: 1 1 50%;
+
+			-moz-flex-grow: 1;
+			-webkit-flex-grow: 1;
+			-ms-flex-grow: 1;
+			flex-grow: 1;
+			-moz-flex-shrink: 1;
+			-webkit-flex-shrink: 1;
+			-ms-flex-shrink: 1;
+			flex-shrink: 1;
+			width: 50%;
+		}
+
+		/* #banner .image {
 			-moz-flex-grow: 0;
 			-webkit-flex-grow: 0;
 			-ms-flex-grow: 0;
@@ -3563,8 +3620,8 @@ input, select, textarea {
 			flex-shrink: 0;
 			display: block;
 			margin: 0 0 2em 4em;
-			/*width: 50%;*/
-		}
+			width: 50%;
+		} */
 
 			#banner .image img {
 				/*height: 100%;*/
