@@ -8,6 +8,12 @@
 	This website is licensed under CC BY 2.0 by Bayliss Wagner.
 */
 
+/*
+Brand Guide
+red: #f56a6a
+pink: #f56a6a
+*/
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -99,7 +105,7 @@ input, select, textarea {
 }
 
 .port-work h1,h2,h3 {
-	font-family: "Merriweather", serif;
+	font-family: "Raleway", serif;
 }
 
 .port-work header{
@@ -114,6 +120,12 @@ input, select, textarea {
 
 .port-work h2{
 	font-size: 1.5em;
+
+}
+
+.port-work h4{
+	color: black;
+	font-size: 1.1em;
 
 }
 
@@ -162,6 +174,7 @@ input, select, textarea {
 
 }
 
+
 #port-work-coding table{
 	overflow: auto;
 	padding: 5px;
@@ -174,9 +187,9 @@ input, select, textarea {
 }
 
 #port-work-coding p{
-	font-family: Georgia, sans-serif;
+	font-family: Raleway, sans-serif;
 	color: black;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 #port-work-coding img{
@@ -298,7 +311,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #7f888f;
+		color: black;
 		font-family: "Raleway", sans-serif;
 		font-size: 18pt;
 		font-weight: 100%;
@@ -2024,7 +2037,7 @@ input, select, textarea {
 		background: #ffffff;
 		border-radius: 0.375em;
 		border: none;
-		border: solid 1px rgba(210, 215, 217, 0.75);
+		/*border: solid 1px rgba(210, 215, 217, 0.75);*/
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -2192,7 +2205,7 @@ input, select, textarea {
 
 	.box {
 		border-radius: 0.375em;
-		border: solid 1px rgba(210, 215, 217, 0.75);
+		/* border: solid 1px rgba(210, 215, 217, 0.75); */
 		margin-bottom: 2em;
 		padding: 1.5em;
 	}
@@ -2580,13 +2593,13 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px rgba(210, 215, 217, 0.75);
+			/* border: solid 1px rgba(210, 215, 217, 0.75); */
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(230, 235, 237, 0.25);
+				/* background-color: rgba(230, 235, 237, 0.25); */
 			}
 
 		table td {
@@ -2594,7 +2607,7 @@ input, select, textarea {
 		}
 
 		table th {
-			color: #3d4449;
+			/* color: #3d4449; */
 			font-size: 0.9em;
 			font-weight: 600;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -2602,11 +2615,11 @@ input, select, textarea {
 		}
 
 		table thead {
-			border-bottom: solid 2px rgba(210, 215, 217, 0.75);
+			/* border-bottom: solid 2px rgba(210, 215, 217, 0.75); */
 		}
 
 		table tfoot {
-			border-top: solid 2px rgba(210, 215, 217, 0.75);
+			/* border-top: solid 2px rgba(210, 215, 217, 0.75); */
 		}
 
 		table.alt {
@@ -2614,7 +2627,7 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: solid 1px rgba(210, 215, 217, 0.75);
+				/* border: solid 1px rgba(210, 215, 217, 0.75); */
 				border-left-width: 0;
 				border-top-width: 0;
 			}
